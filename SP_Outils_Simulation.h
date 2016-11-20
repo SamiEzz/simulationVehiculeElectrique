@@ -1,0 +1,10 @@
+#ifndef SP_OUTILS_SIMULATION_H_INCLUDED
+#define SP_OUTILS_SIMULATION_H_INCLUDED
+
+
+#endif
+float SP_SOURCE(float,float,float);
+float SP_ANA(ST_PARAM_SYSTEM ,float);
+float SP_IEULEUR(ST_PARAM_SYSTEM,ST_PARAM_SIMU,float,ST_POINT);
+float SP_EQDIFF_I(float,ST_PARAM_SYSTEM,float);
+float SP_RK2(ST_PARAM_SYSTEM,ST_PARAM_SIMU,float,float);
